@@ -1,16 +1,30 @@
 <template lang='pug'>
   #app
     #nav
-      h1 hello
+      h1 Hello
+      p Vue JS is amazing framework
 </template>
 
 <style lang='stylus'>
+
+@import 'global-styles/colors.styl'
+@import 'global-styles/typography.styl'
+
+body
+  background-color: dark-blue
+
+h1 
+  heading-1(white)
+
+p
+  medium-text(white)
+
 #app 
-  font-family: "Avenir", Helvetica, Arial, sans-serif
+  font-family: system-font-family
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center
-  color: #2c3e50
+  color: white
 
 #nav 
   padding: 30px
@@ -21,4 +35,5 @@
 
 #nav a.router-link-exact-active 
   color: #42b983
+
 </style>
