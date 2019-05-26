@@ -1,14 +1,9 @@
 <template lang='pug'>
   #app
-    #nav
-      h1 Hello
-      p Vue JS is amazing framework
+    router-view
 </template>
 
 <style lang='stylus'>
-
-@import 'global-styles/colors.styl'
-@import 'global-styles/typography.styl'
 
 body
   background-color: dark-blue
