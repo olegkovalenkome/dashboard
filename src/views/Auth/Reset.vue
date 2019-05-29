@@ -1,13 +1,10 @@
-<template lang='pug'>
+<template lang="pug">
   #reset
 </template>
 
 <script>
-
 export default {
   name: "reset",
-  components: {
-    
-  }
+  components: {}
 };
 </script>
